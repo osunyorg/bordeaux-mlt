@@ -120,13 +120,6 @@ items:
     descendants_targets: []
     path: "/pages/la-formation/international"
     file: content/fr/pages/la-formation/international/_index.html
-  - title: MLT
-    slug: mlt
-    target: "/formations/mlt/"
-    kind: url
-    new_tab: false
-    children: []
-    descendants_targets: []
   descendants_targets:
   - "/formations/mlt/"
   - "/la-formation/candidature/"
