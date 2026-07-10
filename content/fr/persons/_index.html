@@ -9,7 +9,7 @@ breadcrumb_title: >-
 url: "/personnes/"
 slug: "personnes"
 date: 2026-07-08T09:21:19+02:00
-lastmod: 2026-07-08T09:21:19+02:00
+lastmod: 2026-07-10T09:07:37+02:00
 meta:
   hugo:
     permalink: "/personnes/"
@@ -18,7 +18,7 @@ meta:
     slug: "personnes"
   dates:
     created_at: 2026-07-08T09:21:19+02:00
-    updated_at: 2026-07-08T09:21:19+02:00
+    updated_at: 2026-07-10T09:07:37+02:00
     published_at: 2026-07-08T09:21:19+02:00
 search:
   id: "6119f440-8f03-418b-b86a-206702dc18f7"
@@ -33,10 +33,8 @@ search:
 
 breadcrumbs:
   - title: >-
-      Accueil
+      Management Logistique Transports - IUT de Bordeaux
     path: "/"
-  - title: >-
-      Personnes
 
 design:
   full_width: false
@@ -45,25 +43,34 @@ design:
     offcanvas: false
 
 has:
-  administrators: 
+  administrators: true
   authors: false
-  researchers: 
-  teachers: 
+  researchers: false
+  teachers: false
+build:
+  list: always
+  publishResources: true
+  render: never
 
-position: 2
-weight: 2
+position: 13
+weight: 13
 
 translationKey: communication-website-page-1be54b17-bd76-49d4-bafe-7d550382fc91
 
 
 
 children:
-  - "authors/_index.html"
+  - "administrators/_index.html"
+  - "teachers/_index.html"
 child_pages:
-  - permalink: "/personnes/equipe-editoriale/"
-    path: "/authors"
-    slug: "equipe-editoriale"
-    file: "content/fr/authors/_index.html"
+  - permalink: ""
+    path: "/administrators"
+    slug: "equipe-administrative"
+    file: "content/fr/administrators/_index.html"
+  - permalink: ""
+    path: "/teachers"
+    slug: "equipe-pedagogique"
+    file: "content/fr/teachers/_index.html"
 
 
 header_cta:
