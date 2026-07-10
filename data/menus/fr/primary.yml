@@ -6,8 +6,38 @@ items:
   target: "/le-departement-mlt/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: Présentation
+    slug: presentation
+    target: "/le-departement-mlt/presentation/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/le-departement-mlt/presentation"
+    file: content/fr/pages/le-departement-mlt/presentation/_index.html
+  - title: L'équipe MLT
+    slug: l-equipe-mlt
+    target: "/le-departement-mlt/lequipe-mlt/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/le-departement-mlt/lequipe-mlt"
+    file: content/fr/pages/le-departement-mlt/lequipe-mlt/_index.html
+  - title: Contactez-nous
+    slug: contactez-nous
+    target: "/le-departement-mlt/contactez-nous/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/le-departement-mlt/contactez-nous"
+    file: content/fr/pages/le-departement-mlt/contactez-nous/_index.html
+  descendants_targets:
+  - "/le-departement-mlt/contactez-nous/"
+  - "/le-departement-mlt/lequipe-mlt/"
+  - "/le-departement-mlt/presentation/"
   path: "/pages/le-departement-mlt"
   file: content/fr/pages/le-departement-mlt/_index.html
 - title: La formation
@@ -15,8 +45,58 @@ items:
   target: "/la-formation/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: Métiers et débouchés
+    slug: metiers-et-debouches
+    target: "/la-formation/metiers-et-debouches/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/la-formation/metiers-et-debouches"
+    file: content/fr/pages/la-formation/metiers-et-debouches/_index.html
+  - title: Candidature
+    slug: candidature
+    target: "/la-formation/candidature/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/la-formation/candidature"
+    file: content/fr/pages/la-formation/candidature/_index.html
+  - title: Pass'BUT
+    slug: pass-but
+    target: "/la-formation/passbut/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/la-formation/passbut"
+    file: content/fr/pages/la-formation/passbut/_index.html
+  - title: Immersion
+    slug: immersion
+    target: "/la-formation/immersion/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/la-formation/immersion"
+    file: content/fr/pages/la-formation/immersion/_index.html
+  - title: International
+    slug: international
+    target: "/la-formation/international/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/la-formation/international"
+    file: content/fr/pages/la-formation/international/_index.html
+  descendants_targets:
+  - "/la-formation/candidature/"
+  - "/la-formation/immersion/"
+  - "/la-formation/international/"
+  - "/la-formation/metiers-et-debouches/"
+  - "/la-formation/passbut/"
   path: "/pages/la-formation"
   file: content/fr/pages/la-formation/_index.html
 - title: Vie étudiante
@@ -24,8 +104,38 @@ items:
   target: "/vie-etudiante/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: Sur le campus
+    slug: sur-le-campus
+    target: "/vie-etudiante/sur-le-campus/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/vie-etudiante/sur-le-campus"
+    file: content/fr/pages/vie-etudiante/sur-le-campus/_index.html
+  - title: Associations édudiantes
+    slug: associations-edudiantes
+    target: "/vie-etudiante/associations-edudiantes/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/vie-etudiante/associations-edudiantes"
+    file: content/fr/pages/vie-etudiante/associations-edudiantes/_index.html
+  - title: Hors du campus
+    slug: hors-du-campus
+    target: "/vie-etudiante/hors-du-campus/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/vie-etudiante/hors-du-campus"
+    file: content/fr/pages/vie-etudiante/hors-du-campus/_index.html
+  descendants_targets:
+  - "/vie-etudiante/associations-edudiantes/"
+  - "/vie-etudiante/hors-du-campus/"
+  - "/vie-etudiante/sur-le-campus/"
   path: "/pages/vie-etudiante"
   file: content/fr/pages/vie-etudiante/_index.html
 - title: Entreprises
@@ -33,8 +143,48 @@ items:
   target: "/entreprises/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: Taxe d’apprentissage
+    slug: taxe-d-apprentissage
+    target: "/entreprises/taxe-dapprentissage/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/entreprises/taxe-dapprentissage"
+    file: content/fr/pages/entreprises/taxe-dapprentissage/_index.html
+  - title: Stages et alternances
+    slug: stages-et-alternances
+    target: "/entreprises/stages-et-alternances/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/entreprises/stages-et-alternances"
+    file: content/fr/pages/entreprises/stages-et-alternances/_index.html
+  - title: Recruter un étudiant ou un diplômé MLT
+    slug: recruter-un-etudiant-ou-un-diplome-mlt
+    target: "/entreprises/recruter-un-etudiant-ou-un-diplome-mlt/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/entreprises/recruter-un-etudiant-ou-un-diplome-mlt"
+    file: content/fr/pages/entreprises/recruter-un-etudiant-ou-un-diplome-mlt/_index.html
+  - title: Validation des acquis VAE
+    slug: validation-des-acquis-vae
+    target: "/entreprises/validation-des-acquis-vae/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/entreprises/validation-des-acquis-vae"
+    file: content/fr/pages/entreprises/validation-des-acquis-vae/_index.html
+  descendants_targets:
+  - "/entreprises/recruter-un-etudiant-ou-un-diplome-mlt/"
+  - "/entreprises/stages-et-alternances/"
+  - "/entreprises/taxe-dapprentissage/"
+  - "/entreprises/validation-des-acquis-vae/"
   path: "/pages/entreprises"
   file: content/fr/pages/entreprises/_index.html
 - title: Actualités
@@ -46,6 +196,24 @@ items:
   descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
+- title: Agenda
+  slug: agenda
+  target: "/agenda/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/events"
+  file: content/fr/events/_index.html
+- title: Formations
+  slug: formations
+  target: "/formations/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/programs"
+  file: content/fr/programs/_index.html
 - title: Organisations
   slug: organisations
   target: "/organisations/"
@@ -64,15 +232,6 @@ items:
   descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: Agenda
-  slug: agenda
-  target: "/agenda/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/events"
-  file: content/fr/events/_index.html
 - title: Expositions
   slug: expositions
   target: "/expositions/"
@@ -91,4 +250,31 @@ items:
   descendants_targets: []
   path: "/jobs"
   file: content/fr/jobs/_index.html
+- title: Écoles
+  slug: ecoles
+  target: "/ecoles/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/schools"
+  file: content/fr/schools/_index.html
+- title: Diplômes
+  slug: diplomes
+  target: "/diplomes/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/diplomas"
+  file: content/fr/diplomas/_index.html
+- title: Campus
+  slug: campus
+  target: "/campus/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/locations"
+  file: content/fr/locations/_index.html
 
