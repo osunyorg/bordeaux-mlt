@@ -1,6 +1,42 @@
 ---
 title: Menu principal
 items:
+- title: Le département MLT
+  slug: le-departement-mlt
+  target: "/le-departement-mlt/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/le-departement-mlt"
+  file: content/fr/pages/le-departement-mlt/_index.html
+- title: La formation
+  slug: la-formation
+  target: "/la-formation/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/la-formation"
+  file: content/fr/pages/la-formation/_index.html
+- title: Vie étudiante
+  slug: vie-etudiante
+  target: "/vie-etudiante/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/vie-etudiante"
+  file: content/fr/pages/vie-etudiante/_index.html
+- title: Entreprises
+  slug: entreprises
+  target: "/entreprises/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/entreprises"
+  file: content/fr/pages/entreprises/_index.html
 - title: Actualités
   slug: actualites
   target: "/actualites/"
@@ -10,15 +46,6 @@ items:
   descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
-- title: Personnes
-  slug: personnes
-  target: "/personnes/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
 - title: Organisations
   slug: organisations
   target: "/organisations/"
@@ -28,4 +55,40 @@ items:
   descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
+- title: Personnes
+  slug: personnes
+  target: "/personnes/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/persons"
+  file: content/fr/persons/_index.html
+- title: Agenda
+  slug: agenda
+  target: "/agenda/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/events"
+  file: content/fr/events/_index.html
+- title: Expositions
+  slug: expositions
+  target: "/expositions/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/exhibitions"
+  file: content/fr/exhibitions/_index.html
+- title: Offres d'emploi
+  slug: offres-d-emploi
+  target: "/offres-d-emploi/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/jobs"
+  file: content/fr/jobs/_index.html
 
