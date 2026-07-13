@@ -9,6 +9,17 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        instagram:
+          label: >-
+            mlt_bordeaux
+          value: >-
+            https://instagram.com/mlt_bordeaux
+        linkedin:
+          label: >-
+            iut-mlt-bordeaux
+          value: >-
+            https://www.linkedin.com/company/iut-mlt-bordeaux/
 
   taxonomies:
     administrator: administrators
