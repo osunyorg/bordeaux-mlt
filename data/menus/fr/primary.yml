@@ -86,13 +86,13 @@ items:
     file: content/fr/pages/la-formation/metiers-et-debouches/_index.html
   - title: Candidature
     slug: candidature
-    target: "/la-formation/candidature/"
+    target: "/la-formation/candidater-en-but-mlt/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/la-formation/candidature"
-    file: content/fr/pages/la-formation/candidature/_index.html
+    path: "/pages/la-formation/candidater-en-but-mlt"
+    file: content/fr/pages/la-formation/candidater-en-but-mlt/_index.html
   - title: Pass'BUT
     slug: pass-but
     target: "/la-formation/passbut/"
@@ -122,7 +122,7 @@ items:
     file: content/fr/pages/la-formation/international/_index.html
   descendants_targets:
   - "/formations/mlt/"
-  - "/la-formation/candidature/"
+  - "/la-formation/candidater-en-but-mlt/"
   - "/la-formation/immersion/"
   - "/la-formation/international/"
   - "/la-formation/metiers-et-debouches/"
