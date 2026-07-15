@@ -15,6 +15,10 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/entreprises-partenariats/index.html"
+to = "/entreprises/entreprises-partenariats/"
+
+[[redirects]]
 from = "/la-formation/candidature/index.html"
 to = "/la-formation/candidater-en-but-mlt/"
 
