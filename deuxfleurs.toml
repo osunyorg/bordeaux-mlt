@@ -22,3 +22,7 @@ to = "/entreprises/entreprises-partenariats/"
 from = "/la-formation/candidature/index.html"
 to = "/la-formation/candidater-en-but-mlt/"
 
+[[redirects]]
+from = "/agenda/2026/rentree-but-mlt-1ere-annee-1/index.html"
+to = "/agenda/2026/rentree-but-mlt-3eme-annee/"
+
