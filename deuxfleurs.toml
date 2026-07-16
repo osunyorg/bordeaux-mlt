@@ -16,7 +16,11 @@ Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
 from = "/entreprises-partenariats/index.html"
-to = "/entreprises/entreprises-partenariats/"
+to = "/entreprises/entreprises-et-partenariats/"
+
+[[redirects]]
+from = "/entreprises/entreprises-partenariats/index.html"
+to = "/entreprises/entreprises-et-partenariats/"
 
 [[redirects]]
 from = "/la-formation/candidature/index.html"
