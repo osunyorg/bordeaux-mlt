@@ -3,7 +3,7 @@ title: Sur-menu
 items:
 - title: Intranet MLT
   slug: intranet-mlt
-  target: https://www.glt-bordeaux.fr/intranet.html
+  target: https://www.glt-bordeaux.fr/intranet.php
   kind: url
   new_tab: true
   children: []
