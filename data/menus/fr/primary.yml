@@ -174,7 +174,7 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Entreprises et Partenariats
+  - title: Entreprises et partenariats
     slug: entreprises-et-partenariats
     target: "/entreprises/entreprises-et-partenariats/"
     kind: page
