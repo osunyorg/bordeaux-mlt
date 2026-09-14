@@ -84,6 +84,15 @@ items:
     descendants_targets: []
     path: "/pages/la-formation/metiers-et-debouches"
     file: content/fr/pages/la-formation/metiers-et-debouches/_index.html
+  - title: Alternance
+    slug: alternance
+    target: "/la-formation/alternance/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/la-formation/alternance"
+    file: content/fr/pages/la-formation/alternance/_index.html
   - title: Candidature
     slug: candidature
     target: "/la-formation/candidater-en-but-mlt/"
@@ -122,6 +131,7 @@ items:
     file: content/fr/pages/la-formation/international/_index.html
   descendants_targets:
   - "/formations/mlt/"
+  - "/la-formation/alternance/"
   - "/la-formation/candidater-en-but-mlt/"
   - "/la-formation/immersion/"
   - "/la-formation/international/"
