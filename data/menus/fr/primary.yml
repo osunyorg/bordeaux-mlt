@@ -154,8 +154,8 @@ items:
     descendants_targets: []
     path: "/pages/vie-etudiante/sur-le-campus"
     file: content/fr/pages/vie-etudiante/sur-le-campus/_index.html
-  - title: Associations édudiantes
-    slug: associations-edudiantes
+  - title: Associations étudiantes
+    slug: associations-etudiantes
     target: "/vie-etudiante/associations-edudiantes/"
     kind: page
     new_tab: false
