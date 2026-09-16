@@ -313,6 +313,45 @@ contents:
       layout: classic
 
 
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: true
+      description: >-
+        <p><a href="/agenda/" target="_blank" rel="noreferrer">Voir tous les évènements <span class="sr-only">(lien externe)</span></a></p>
+    data:
+      mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: true
+        dates: true
+        image: false
+        subtitle: false
+        summary: false
+        status: false
+
+      layout: list
+      description: >-
+        <p><a href="/agenda/" target="_blank" rel="noreferrer">Voir tous les évènements <span class="sr-only">(lien externe)</span></a></p>
+
+      title_link: "/agenda/"
+      events:
+        - permalink: "/agenda/2026/salon-passerelle-a-la-rochelle/"
+          path: "/events/2026/10/03-salon-passerelle-a-la-rochelle"
+          slug: "salon-passerelle-a-la-rochelle"
+          file: "content/fr/events/2026/10/03-salon-passerelle-a-la-rochelle.html"
+          name: >-
+            Salon Passerelle à La Rochelle
+
+      quantity: 1
 
   - kind: block
     template: call_to_action
