@@ -39,6 +39,10 @@ from = "/actualites/2026-04-15-deplacement-au-port-de-bassens/index.html"
 to = "/actualites/2025-04-15-deplacement-au-port-de-bassens/"
 
 [[redirects]]
+from = "/formations/securiser-dossier-paie/index.html"
+to = "/formations/fiabiliser-dsn-securiser-dossier-paie/"
+
+[[redirects]]
 from = "/agenda/2026/rentree-but-mlt-1ere-annee-1/index.html"
 to = "/agenda/2026/rentree-but-mlt-3eme-annee/"
 
