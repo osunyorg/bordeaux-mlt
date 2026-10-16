@@ -93,8 +93,8 @@ items:
     descendants_targets: []
     path: "/pages/la-formation/alternance"
     file: content/fr/pages/la-formation/alternance/_index.html
-  - title: Candidature
-    slug: candidature
+  - title: Candidater en BUT MLT
+    slug: candidater-en-but-mlt
     target: "/la-formation/candidater-en-but-mlt/"
     kind: page
     new_tab: false
