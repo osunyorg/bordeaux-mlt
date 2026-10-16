@@ -220,8 +220,8 @@ items:
     descendants_targets: []
     path: "/pages/entreprises/recruter-un-etudiant-ou-un-diplome-mlt"
     file: content/fr/pages/entreprises/recruter-un-etudiant-ou-un-diplome-mlt/_index.html
-  - title: Validation des acquis VAE
-    slug: validation-des-acquis-vae
+  - title: Validation des acquis de l'expérience (VAE)
+    slug: validation-des-acquis-de-l-experience-vae
     target: "/entreprises/validation-des-acquis-vae/"
     kind: page
     new_tab: false
