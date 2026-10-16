@@ -202,15 +202,15 @@ items:
     descendants_targets: []
     path: "/pages/entreprises/taxe-dapprentissage"
     file: content/fr/pages/entreprises/taxe-dapprentissage/_index.html
-  - title: Stages et alternances
-    slug: stages-et-alternances
-    target: "/entreprises/stages-et-alternances/"
+  - title: Stages et alternance
+    slug: stages-et-alternance
+    target: "/entreprises/stages-et-alternance/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/entreprises/stages-et-alternances"
-    file: content/fr/pages/entreprises/stages-et-alternances/_index.html
+    path: "/pages/entreprises/stages-et-alternance"
+    file: content/fr/pages/entreprises/stages-et-alternance/_index.html
   - title: Recruter un étudiant ou un diplômé MLT
     slug: recruter-un-etudiant-ou-un-diplome-mlt
     target: "/entreprises/recruter-un-etudiant-ou-un-diplome-mlt/"
@@ -232,7 +232,7 @@ items:
   descendants_targets:
   - "/entreprises/entreprises-et-partenariats/"
   - "/entreprises/recruter-un-etudiant-ou-un-diplome-mlt/"
-  - "/entreprises/stages-et-alternances/"
+  - "/entreprises/stages-et-alternance/"
   - "/entreprises/taxe-dapprentissage/"
   - "/entreprises/validation-des-acquis-vae/"
   path: "/pages/entreprises"

@@ -15,6 +15,10 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/entreprises/stages-et-alternances/index.html"
+to = "/entreprises/stages-et-alternance/"
+
+[[redirects]]
 from = "/agenda/2027/journee-portes-ouvertes-iut-de-bordeaux-site-bordeaux-bastide/index.html"
 to = "/agenda/2027/portes-ouvertes-iut-de-bordeaux-site-bordeaux-bastide/"
 
