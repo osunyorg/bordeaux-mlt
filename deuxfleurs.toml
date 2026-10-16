@@ -1,0 +1,60 @@
+[[cors]]
+allowed_origins = "*"
+allowed_methods = ["GET", "POST"]
+allowed_headers = "*"
+
+[[headers]]
+for = ["**/*.woff2", "**/*.woff", "**/*.svg", "**/*.ttf", "**/*.otf", "**/*.eot", "**/*.js", "**/*.css"]
+compress = "gzip"
+[headers.values]
+Cache-Control = "max-age=31536000, no-transform, public"
+
+[[headers]]
+for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
+[headers.values]
+Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/entreprises/stages-et-alternances/index.html"
+to = "/entreprises/stages-et-alternance/"
+
+[[redirects]]
+from = "/agenda/2027/journee-portes-ouvertes-iut-de-bordeaux-site-bordeaux-bastide/index.html"
+to = "/agenda/2027/portes-ouvertes-iut-de-bordeaux-site-bordeaux-bastide/"
+
+[[redirects]]
+from = "/formations/gp/index.html"
+to = "/formations/abf/"
+
+[[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/etre-alternant-a-l-iutde-bordeauxpdf/"
+
+[[redirects]]
+from = "/entreprises-partenariats/index.html"
+to = "/entreprises/entreprises-et-partenariats/"
+
+[[redirects]]
+from = "/entreprises/entreprises-partenariats/index.html"
+to = "/entreprises/entreprises-et-partenariats/"
+
+[[redirects]]
+from = "/la-formation/candidature/index.html"
+to = "/la-formation/candidater-en-but-mlt/"
+
+[[redirects]]
+from = "/actualites/2026-04-15-deplacement-au-port-de-bassens/index.html"
+to = "/actualites/2025-04-15-deplacement-au-port-de-bassens/"
+
+[[redirects]]
+from = "/formations/securiser-dossier-paie/index.html"
+to = "/formations/fiabiliser-dsn-securiser-dossier-paie/"
+
+[[redirects]]
+from = "/agenda/2027/journee-portes-ouvertes-iut-de-bordeaux-site-bastide/index.html"
+to = "/agenda/2027/portes-ouvertes-iut-de-bordeaux-site-bordeaux-bastide/"
+
+[[redirects]]
+from = "/agenda/2026/rentree-but-mlt-1ere-annee-1/index.html"
+to = "/agenda/2026/rentree-but-mlt-3eme-annee/"
+
