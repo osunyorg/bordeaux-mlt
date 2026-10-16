@@ -15,6 +15,10 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/agenda/2027/journee-portes-ouvertes-iut-de-bordeaux-site-bordeaux-bastide/index.html"
+to = "/agenda/2027/portes-ouvertes-iut-de-bordeaux-site-bordeaux-bastide/"
+
+[[redirects]]
 from = "/formations/gp/index.html"
 to = "/formations/abf/"
 
@@ -41,6 +45,10 @@ to = "/actualites/2025-04-15-deplacement-au-port-de-bassens/"
 [[redirects]]
 from = "/formations/securiser-dossier-paie/index.html"
 to = "/formations/fiabiliser-dsn-securiser-dossier-paie/"
+
+[[redirects]]
+from = "/agenda/2027/journee-portes-ouvertes-iut-de-bordeaux-site-bastide/index.html"
+to = "/agenda/2027/portes-ouvertes-iut-de-bordeaux-site-bordeaux-bastide/"
 
 [[redirects]]
 from = "/agenda/2026/rentree-but-mlt-1ere-annee-1/index.html"
