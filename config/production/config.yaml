@@ -7,6 +7,10 @@ osuny:
   website:
     id: 0404b7e4-31d2-40c1-bd1a-58e03a2be9a9
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "mlt.iut.u-bordeaux.fr"
 
 ## LANGUAGE
 defaultContentLanguage: fr
